@@ -1,0 +1,49 @@
+/* APPLY ALL PAGES OF HTML */
+* {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: 150px auto;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+div>h1 {
+    margin: 0px auto 8px;
+}
+
+.navbar {
+    overflow: hidden;
+    margin: 8px;
+}
+
+.navbar > button > a {
+    float: left;
+    text-align: center;
+    padding: 6px auto 6px auto;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    width: 10%;
+    background-color: palegoldenrod;
+    border: 2px solid black;
+}
+
+.navbar > button > a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar > button > a:active {
+    background-color: whitesmoke;
+    color: black;
+}

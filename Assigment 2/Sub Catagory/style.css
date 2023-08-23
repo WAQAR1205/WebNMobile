@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+div{
+    text-align: center;
+    margin: 10%;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor:move;
+    width: 25%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+button:active{
+    background-color:bisque;
+    color: aliceblue;
+}

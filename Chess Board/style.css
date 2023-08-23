@@ -1,0 +1,31 @@
+#back{
+    margin: 50px;
+}
+#table{
+    background-color: black;
+}
+#head{
+    border: none;
+}
+#Head{
+    height: 40px;
+}
+
+#black{
+    font-weight: 800;
+    font-size: 30px;
+    background-color: saddlebrown;
+    text-align: center;
+}
+#white{
+    font-weight: 800;
+    font-size: 30px;
+    background-color: burlywood;
+    text-align: center;
+}
+.blackpiece{
+    color: white;
+}
+.whitepiece{
+    color: black;
+}
