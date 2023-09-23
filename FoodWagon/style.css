@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: small;
+}
+nav div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 20%;
+}
+nav div button{text-align: center;}
+.login{
+    font-weight: 700;
+    color: #FF8A00;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 35%;
+}
+.sreach{border: none;}
+header{
+    width: 100%;
+    background-color: #FFB30E;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-img{flex: 2;}
+.header-items{flex: 3;}
+.header-content{text-align: center;}
+.header-content h1{
+    color: white;
+    font-weight:900;
+    font-size: 50px;
+}
+.form{
+    justify-content: center;
+    background-color: aqua;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: red;
+}
+form div{
+    display: flex;
+    flex-wrap: wrap;
+}
